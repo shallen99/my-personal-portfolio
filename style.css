@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin:0;
+}
+.Introduction{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Downloads/pexels-sharath-giri-3849160.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo{
+    color: grey;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span{
+    color: #f9004d;
+
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:8px 20px;
+}
+nav ul li a{
+    background-color: black;
+    text-decoration: none;
+    color: wheat;
+    border: 1.5px solid transparent;
+    border-radius:50px;
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition: 4s;
+}
+.Intoduction1{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 15px 0px 15px;
+    font-size: 60px;
+}
+h3{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+h4{
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+
+}
+
+.About{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    background-position: center;
+}
+
+.About img{
+ height: auto;
+ width: 400px;
+}
+.About-text{
+    width: 500px;
+}
+.main{
+    width: 1130px;
+    max-width: 90%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-text h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.About-text h5{
+    color: lightgreen;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.About-text p{
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #fcfc;
+
+}
+#button{
+    background-color: #f9004d;
+    color:antiquewhite;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 25px;
+    transition: 4s; 
+}
+#button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.services{
+    background:black;
+    width: 100%;
+    padding: 100px 0px;
+
+}.title h2{
+    font-size: 74px;
+    color:white;
+    width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+}
+.card{
+    height:360px;
+    width:260px;
+    padding:20px 35px;
+    background: lightblue;
+    border-radius: 20px;
+    margin:12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+h5{
+    color: palevioletred;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.para p{
+    color: black;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    width: 100%;
+    height: 250%;
+    background:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts p{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contacts .button1{
+    background-color: #f9004d;
+    color:antiquewhite;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 25px;
+    transition: 4s; 
+}
+.contacts .button1{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background:  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+     color: white;
+     margin-bottom: 20px;
+     font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+}
+.social{
+    display:flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.social a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+.end{
+    position:absolute;
+    color:#f9004d;
+    bottom:32px;
+    font-size: 14px;
+}
+
+
+
